@@ -32,7 +32,7 @@ L = 1 ;
 R = n_e ;
 att = 0 ; % lets track attempts just for safety
 while L <= R
-    if att > ceil(log(n_e)) + 1 ; break ; end % safety break after 
+    if att > ceil(log(n_e)) * 2 ; break ; end % safety break after 
                                               % time that search alg should 
                                               % theoretically take
     
